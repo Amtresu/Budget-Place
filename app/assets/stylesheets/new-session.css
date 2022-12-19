@@ -1,0 +1,18 @@
+.log-in-div {
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    width:100vw;
+    text-align: center;
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #3778c2;
+    top: 0;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}

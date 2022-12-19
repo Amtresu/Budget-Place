@@ -1,0 +1,37 @@
+.splash-div {
+    text-align: center;
+      width: 100%;
+
+  }
+
+.splash-title { 
+  color: #3778c2;
+  font-style: italic;
+  font-size: 30px;
+  padding-top: 45%;
+}
+
+.splash-list { 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;  
+}
+
+.splash-link-li {
+  background-color: #3778c2;
+  height: 50px;
+}
+
+.splash-link { 
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+.splash-link-alt { 
+  color: #434b54;
+  text-align: center;
+  padding-top: 15px;
+}

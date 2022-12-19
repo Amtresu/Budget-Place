@@ -1,0 +1,42 @@
+.cat-index-div { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overscroll-behavior: contain;
+}
+
+.category-div,
+.category-create {
+  margin-top: 12px;
+  padding: 20px;
+  background: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.category-create { 
+    background-color: #5fb523;
+    border-color: black;
+}
+
+.new-category-div { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cat-form-photo-div { 
+    margin-bottom: 10px;
+}
+
+.category_image { 
+    width: 100px;
+    height: 100px;
+}
