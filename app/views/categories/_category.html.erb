@@ -1,0 +1,5 @@
+<div class="category-div">
+ <%= image_tag(category.image, class:"category_image") if category.image.attached? %>
+     <%= link_to category.name, category_purchases_path(category.id) %>
+       <span>$<%= category.total_purchases %></span>
+</div>
