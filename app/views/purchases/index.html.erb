@@ -1,0 +1,12 @@
+<%= render partial: 'shared/navbar', locals: { heading: 'PURCHASES', back_path: categories_path } %>
+
+<div class='purchases-div'>
+<div>Category: <%= @category.name %></div>
+<% @category.purchases.each do |purchase|%>
+<div class="purchase-name">
+ <div><%= purchase.name %> </div>
+ <div><%= purchase.amount %>$</div>
+</div>
+<% end %>
+<div class="purchase-create"><%= link_to "Add a new transaction", new_category_purchase_path   %></div>
+</div>

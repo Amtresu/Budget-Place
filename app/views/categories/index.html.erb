@@ -1,0 +1,12 @@
+<%= render partial: 'shared/navbar', locals: { heading: 'CATEGORIES', back_path: categories_path } %>
+
+<div class="cat-index-div">
+<% @categories.includes(:purchases).each do |category| %>
+<div>
+<%= render '/categories/category', category: category %>
+</div>
+<% end %>
+<div class="category-create">
+<%= link_to "Create a new category", new_category_path %>
+</div>
+</div>

@@ -1,0 +1,6 @@
+<%= render partial: 'shared/navbar', locals: { heading: 'NEW PURCHASE', back_path: categories_path } %>
+
+<div class="new-purchase-div">
+
+  <%= render "form", purchase: @purchase %>
+</div>

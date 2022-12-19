@@ -1,0 +1,18 @@
+<div class="log-in-div">
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+<div class="login-header">
+<%= link_to image_tag("back-icon.png"), unauthenticated_root_path, class: 'back' %>
+<h2 class="">LOGIN</h2>
+ <div class="actions">
+    <%= f.submit "Log in" %>
+  </div></div>
+  <div class="login-field">
+    <%= f.email_field :email, class: 'field', placeholder: 'email', autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="login-field">
+    <%= f.password_field :password, class: 'field',placeholder: 'password', autocomplete: "current-password" %>
+  </div>
+<% end %>
+</div>

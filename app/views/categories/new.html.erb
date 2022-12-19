@@ -1,0 +1,6 @@
+<%= render partial: 'shared/navbar', locals: { heading: 'NEW CATEGORY', back_path: categories_path } %>
+
+<div class="new-category-div">
+
+  <%= render "form", category: @category %>
+</div>

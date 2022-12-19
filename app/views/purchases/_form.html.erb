@@ -1,0 +1,7 @@
+<%= form_for :purchase, url: category_purchases_path(@category), method: :post do |form| %>
+  <div class='purchase-form'>
+    <%= form.text_field :name, class: 'field', placeholder: 'Name' %>
+    <%= form.text_field :amount, class: 'field', placeholder: 'Amount' %>
+    <%= form.submit "Submit", class: 'create-button' %>
+  </div>
+<% end %>
