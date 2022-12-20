@@ -4,7 +4,7 @@ class Category < ApplicationRecord
 
   has_one_attached :image
   validates :name, presence: true, length: { maximum: 250 }
-  
+
   def total_purchases
     total = 0
     purchases.each do |purchases|

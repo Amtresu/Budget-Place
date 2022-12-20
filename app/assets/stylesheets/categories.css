@@ -1,8 +1,8 @@
-.cat-index-div { 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    overscroll-behavior: contain;
+.cat-index-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overscroll-behavior: contain;
 }
 
 .category-div,
@@ -21,22 +21,22 @@
   align-items: center;
 }
 
-.category-create { 
-    background-color: #5fb523;
-    border-color: black;
+.category-create {
+  background-color: #5fb523;
+  border-color: black;
 }
 
-.new-category-div { 
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.new-category-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.cat-form-photo-div { 
-    margin-bottom: 10px;
+.cat-form-photo-div {
+  margin-bottom: 10px;
 }
 
-.category_image { 
-    width: 100px;
-    height: 100px;
+.category_image {
+  width: 100px;
+  height: 100px;
 }
