@@ -57,14 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Carpe Diem <a name="about-project"></a>
-![blog-gif](https://thumbs.gfycat.com/WarmheartedPaleHamadryad-max-1mb.gif)
-
-**Carpe Diem** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.The Ruby on Rails application that allows the user to:
-
- - register and log in, so that the data is private to them.
- - introduce new transactions associated with a category.
- - see the money spent on each category.
+# 📖 Budget-Place <a name="about-project"></a>
+The Budget place 
+An app to manager your own budget.
 
 ## 🛠 Built With <a name="built-with"></a>
 
