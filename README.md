@@ -97,7 +97,7 @@ An app to manager your own budget.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Budget Place](https://budget-place.onrender.com/)
+- [Budget Place](https://mysite-y0w9.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
