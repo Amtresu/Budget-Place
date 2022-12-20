@@ -97,7 +97,7 @@ An app to manager your own budget.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [CarpeDiem](build-your-own-live-demo-link-here)
+- [Budget Place](https://budget-place.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
