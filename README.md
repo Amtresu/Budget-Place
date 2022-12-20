@@ -125,9 +125,6 @@ Install this project with:
 ```sh
   bundle install
 ```
-```sh
-  npm install
-```
 
 Create Database (Mandatory)
 
