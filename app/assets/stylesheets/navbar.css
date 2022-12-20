@@ -7,13 +7,12 @@
   height: 50px;
   position: relative;
   color: white;
-  }
-  
-  .nav_heading {
-    color: white;
-  }
+}
 
-  
+.nav_heading {
+  color: white;
+}
+
 .back {
   width: 50px;
 }

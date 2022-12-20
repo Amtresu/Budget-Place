@@ -1,23 +1,22 @@
 .splash-div {
-    text-align: center;
-      width: 100%;
+  text-align: center;
+  width: 100%;
+}
 
-  }
-
-.splash-title { 
+.splash-title {
   color: #3778c2;
   font-style: italic;
   font-size: 30px;
   padding-top: 45%;
 }
 
-.splash-list { 
+.splash-list {
   display: flex;
   flex-direction: column;
   width: 100%;
   position: absolute;
   bottom: 0;
-  padding: 10px;  
+  padding: 10px;
 }
 
 .splash-link-li {
@@ -25,12 +24,13 @@
   height: 50px;
 }
 
-.splash-link { 
+.splash-link {
   color: white;
   text-align: center;
   padding-top: 15px;
 }
-.splash-link-alt { 
+
+.splash-link-alt {
   color: #434b54;
   text-align: center;
   padding-top: 15px;

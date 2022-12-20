@@ -1,6 +1,5 @@
 require 'rails_helper'
 
-
 RSpec.describe Category, type: :model do
   before(:each) do
     @user = User.new(first_name: 'Peter', last_name: 'Parker', email: 'Spidey@gmail.com', password: 'watson')
